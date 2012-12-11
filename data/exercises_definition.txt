@@ -1,0 +1,34 @@
+All Question Types:
+    Must have:
+        question (String -> String)
+        difficulty (String -> Difficulty)
+    Optionally:
+        question_code (Array -> String[])
+        possible_answer (Array -> String[])
+        hint (String -> URL)
+
+Drag Question Type:
+    Must have:
+        options (Array -> String[])
+    One of:
+        answer (String -> String)
+        answers (Array -> String[])
+
+Debug Question Type:
+    Must have:
+        question_code (Array -> String[])
+    One of:
+        answer (String -> String)
+        answer_code (Array -> String[])
+        output (String -> String)
+        check (Array -> String[])
+
+Develop Question Type:
+    One of:
+        output (String -> String)
+        check (Array -> String[])
+
+Statement Question Type:
+    One of:
+        answer (String -> String)
+        output (String -> String)
