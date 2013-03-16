@@ -1,0 +1,61 @@
+Hello. This tutorial will teach you the basics of the Python programming language. The best way to learn is to practice as you read, which is why there is a playground area below. This has a space on the left where you can type code, and a space on the right for showing the output when you run that code.
+
+Try typing "print 1+1" in the playground (without the outer double quotes), then hitting ‘Run Code’. What does the output show? Is this what you expected?
+
+What if you actually wanted to show “1+1” on the screen, and not the result of it? For this, you can enclose it in quotes (e.g. try typing “print '1+1'” and running that instead).
+
+You can use single quotes such as "print 'like this'", or double quotes such as "print "like that"" (remember the outer double quotes are to show code for you to run, and shouldn't actually be included in the code you run).
+
+Why are there two ways to print text (called strings)? This makes things easier if you want to include a single quote in the text (e.g. "print "It's snowing!""), or double quotes in the text (e.g. "print 'Monty said "Python is fun".'").
+
+But what if you want to include both single and double quotes in the text (e.g. try running "print 'Brian said "I'm not the Messiah!".'" and see what happens). How does Python know what quotes are to be included in the string, and what quotes end the string?
+
+One way around this problem is by escaping. Any character could be picked for this purpose, but Python uses a backslash (e.g. "\"), as indeed do most other programming languages.
+
+We can re-write the above code as "print 'Brian said "I\'m not the Messiah!".'". What happens when you try to run the code now?
+
+You can use the escape character to print special characters to the screen, that would otherwise be difficult with a keyboard. For example, how would you print two words "cat" and "dog" on separate lines? One way might be to run two different print statements, such as "print 'cat'" on one line, and "print 'dog'" on the next.
+
+This works just fine, but if you wanted to keep them in a single statement (which means on one line), you can use the special escape character for a newline, which is "\n". You can try this out by re-writing the last two lines of code as "print 'cat\ndog'".
+
+But what if you actually wanted to have a backslash in your string (e.g. to say "print 'a backslash is "\"'")? To get one backslash, you can just use a backslash again to say you really mean just a backslash and not an escape character. For example, the last code could be re-written as "print 'a backslash is "\\"'".
+
+One thing to remember when using the escape character, following by another character (known as the escape sequence), is that Python really interprets it as just one character. For example, the number of characters in "let\'s go" is 8, counting five in "let\'s", one space, and two in "go".
+
+How can we use Python to tell us the length? This can be done using the len() function. For example, what do you think will happen when running the code "print len("hello")"? Try it and see.
+
+Now we are asking Python not just to print a string to the screen, but to print the result of a function to the screen. Functions are explained in more detail in the next section.
+
+What do you think will happen if you try to run "print 'one' + 'two'"? Try it and see. This shows that it's not just numbers that Python can add, but strings as well (called concatenation). As an extension, see what happens when you multiply a string by a number.
+
+Because not all languages let you use "+" on strings as well as numbers, you might want to add a reminder to let you know what it's doing. This means adding a comment, without Python trying to execute it as code!
+
+To do so, you can use the special "#" character, which tells Python that everything after this point should not be run. For example:
+
+"""
+# concatenate 'one' with 'two'
+val = 'one' + 'two'
+"""
+
+Notice that instead of printing the result this time, we are setting it equal to "val" using the "=" operator. This takes a variable name on the left (in this case "val"), and sets that variable equal to the value on the right.
+
+When you run this code, there is no output because it has only saved the value without printing it. After this line, try running "print val". Does this do what you expect?
+
+Variables can hold any in-built type of data (such as strings or integers which we've seen already). What if you wanted to hold a collection of many variables? One way you can do this is by using a list (which is also a Python type), like so:
+
+"""
+lottery_numbers = [4, 12, 22, 33, 34, 47]")
+print lottery_numbers
+"""
+
+This saves a list in a variable called "lottery_numbers", which you can then print to the screen to see its contents.
+
+Lists have special operations that let you extract only the parts you are interested in. To do so, you can use Python slice operations. To see this in action, what happens when you type "print lottery_numbers[0]" and run that?
+
+Lists start counting from 0, so you have asked for the first item in the list "lottery_numbers". You can ask for a range as well. What happens when you run "print lottery_numbers[1:3]". Is this what you expected?
+
+The slice operation asks for the element to start at (in this case element 1, which is the second item), and the element to end at, not including the end element. This is why the last example showed items 1 and 2 only, and not item 3.
+
+You can get the item at the end of the list by using negative numbers. For example, to print the last item, you could type "print lottery_numbers[-1]", which will look backwards through the list rather than forwards.
+
+That concludes this tutorial on the basics of Python. As mentioned at the start, the best way to learn Python is to keep practicing. When you feel like testing your knowledge on the above material, you can head over to the 'Quiz' page.

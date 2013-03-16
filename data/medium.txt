@@ -1,0 +1,82 @@
+Welcome back. We'll continue where we left off with lists.
+
+Previously it was explained that you could use the slice operator to return a section of this by passing the start element and the end element (which wasn't included), such as "mylist[1:3]". You can miss out either side of the operator to tell Python to grab as much as it can.
+
+For example, to return the section of the list starting from element 2 (which is the third element as the list counts from 0) to the end of the list, you could use "mylist[2:]". Python will then grab all the elements from 2 until the end of the list, regardless of the size. This works in the other direction, such as "mylist[:5]", which will return the start of the list up to but not including element 5.
+
+Sometimes you want to remove items from the end of a list as you run through the code. Python has a shorthand way of doing this too, named pop(). Pop will return the last value from the list, and remove that element for the list. Try it out with the following code:
+
+"""
+mylist = ['one', 'two', 'three']
+print mylist
+print mylist.pop()
+print mylist
+"""
+
+What if you don't know what the list should be, but you have the data to make a list in a string? This might be the case if the user typed in the data, or if it was read from a file. To convert from a string to a list, you can use the split() function. For example:
+
+"""
+mywords = 'one,two,three'
+print mywords.split(',')
+"""
+
+This code will call the split() function on the string "mywords" using the serparator "," which will create a new list of three elements.
+
+Next, we'll describe functions.
+
+A function is a series of steps that returns a value at the end. For example, the len() function introduced in the last section is built into Python, and returns the length of the string you pass in at the end. For example, passing the string "hello" to len() (e.g. "len('hello')" will return an integer with the value of 5. This can then be printed to the screen as before, which is just the same as having typed "print 5" instead.
+
+There are many functions built-in to Python, but you don't need to just use those. You can write your own! This is easiest to see by example:
+
+"""
+def add(x, y):
+    return x + y
+"""
+
+Anything between the triple quotes (e.g. """) is code that can be run as is. How these two lines of code work is by first defining a function (using the keyword "def") named "add", that takes two arguments "x" and "y" (enclosed in the parentheses), followed by a colon ":" to start the function.
+
+The next line is indented (either by a tab or by spaces) to show it belongs as part of the function. This line uses the keyword "return" followed by "x + y" which will return the value of the addition of variable x with variable y. When you return a value, that will end the running of the function (even if there are more lines of code after), and the return value can be used by whoever called the function, which we will see shortly.
+
+If you try and run the two lines of code above, you won't see anything in the output. This is because you have only defined the function, but never actually ran it. Instead, try running the following code:
+
+"""
+def add(x, y):
+    return x + y
+
+print add(1, 2)
+"""
+
+Notice how the indentation is removed for the print line? This tells Python that it no longer belongs as part of the function, and the code is run instead.
+
+Sometimes you might not know what code to execute, and it might depend on what the value of a variable is. For this scenario, we can use if statements. Consider the following code:
+
+"""
+x = 0
+
+if x > 10:
+    print "High"
+elif x >= 0:
+    print "Low"
+else:
+    print "Negative"
+"""
+
+Like before with functions, if statements are indented to let Python know which lines of code belong to which statement. They test an equality, which is a statement that returns True or False, and then runs a specific section of code as a result. Remember to include the colon after the statement and before the indented code to run.
+
+In the example above, if the value of x is greater than 10, it will run all the indented lines that follow, which in this case is just one line that prints "High" to the screen.
+
+The "elif" operator (short for "else if" in English) is the next statement to test if the previous one returned false. In this example, because x is equal to 0, the first test (x > 10) returns false and the "elif" test is checked next (x >= 0). This returns true, which means the indented code that follows is run, and the final "else" statement (that captures all other possibilities) is never run.
+
+One thing to keep in mind is that the statements above expect x to be an integer. If x is something else (like a string), unexpected results will happen due to type conversion. Feel free to try it out, but we won't cover type conversion in detail here.
+
+For our purposes, we can ensure that x is an integer by calling the built-in function int(), which will convert whatever x is to an integer (and cause an error if it can't). For example, try running "print '5' + '5'" and "print int('5') + int('5')" to see the difference.
+
+What if the value of the variable you want to use is not available to you in the code, but can be made available in a text file that the code can read when running? To do so, we can use the open() function to open a text file.
+
+For example, "open('data.txt')" will look for a file named "data.txt" in the same directory as the Python program, and return an object reference. We won't cover object references in detail here either, but for now it is enough to know that a File object reference has a method (which is object terminology for a function) called read(), that will read in the entire file.
+
+For example, "data = open('data.txt').read()" will read the entire file and place the value into a variable named "data". This variable can then be used in the rest of the program just as any other.
+
+Suppose you want to write back to the file (or another file) when you are done? In this case, you can pass a writable argument "w" to the open() function, such as "f = open('data.txt', 'w')". In this case, a reference to file object is stored in a variable named "f".
+
+Now there is a new method available, named write(), that takes a string argument (e.g. "f.write('my secret data')") and writes it to the text file. Once you are done writing text, you should close the file object by calling the close() method with no arguments (e.g. "f.close()").

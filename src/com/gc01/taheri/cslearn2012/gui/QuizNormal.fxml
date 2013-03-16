@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<fx:root type="javafx.scene.layout.VBox" fx:id="vbRoot" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color:&#10;    linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),&#10;    linear-gradient(#20262b, #191d22),&#10;    radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));&#10;-fx-background-radius: 15;&#10;-fx-background-insets: 0, 1, 5;" xmlns:fx="http://javafx.com/fxml" fx:controller="com.gc01.taheri.cslearn2012.gui.QuizNormalController">
+  <children>
+    <HBox fx:id="hbNavbar" prefHeight="75.0" prefWidth="800.0">
+      <children>
+        <AnchorPane fx:id="apHome" prefHeight="75.0" prefWidth="75.0">
+          <children>
+            <ImageView fx:id="ivHome" fitHeight="48.0" fitWidth="48.0" onMouseClicked="#ivHomeOnMouseClicked" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="15.0">
+              <image>
+                <Image url="@img/home.png" preserveRatio="false" smooth="false" />
+              </image>
+            </ImageView>
+          </children>
+        </AnchorPane>
+        <AnchorPane fx:id="apMessage" prefHeight="75.0" prefWidth="650.0">
+          <children>
+            <Label fx:id="lblMessage" onMouseDragged="#lblMessageOnMouseDragged" onMousePressed="#lblMessageOnMousePressed" prefHeight="-1.0" prefWidth="500.0" text="" textFill="#ff6666" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0">
+              <font>
+                <Font name="System Bold" size="16.0" fx:id="x7" />
+              </font>
+            </Label>
+          </children>
+        </AnchorPane>
+        <AnchorPane fx:id="apExit" prefHeight="75.0" prefWidth="75.0">
+          <children>
+            <ImageView id="ivHome" fx:id="ivExit" fitHeight="48.0" fitWidth="48.0" onMouseClicked="#ivExitOnMouseClicked" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="14.0">
+              <image>
+                <Image url="@img/exit.png" preserveRatio="false" smooth="false" />
+              </image>
+            </ImageView>
+          </children>
+        </AnchorPane>
+      </children>
+    </HBox>
+    <HBox id="hbRoot" fx:id="hbMain" prefHeight="-1.0" prefWidth="-1.0">
+      <children>
+        <AnchorPane fx:id="apSidebar" prefHeight="-1.0" prefWidth="-1.0" style="&#10;">
+          <children>
+            <FlowPane fx:id="fpSidebar" alignment="TOP_CENTER" columnHalignment="CENTER" layoutX="0.0" layoutY="0.0" prefHeight="525.0" prefWidth="200.0">
+              <children>
+                <Button fx:id="btnLearn" alignment="CENTER" contentDisplay="CENTER" defaultButton="false" disable="false" mnemonicParsing="false" onAction="#btnLearnOnAction" prefHeight="150.0" prefWidth="150.0" text="Learn">
+                  <effect>
+                    <SepiaTone>
+                      <input>
+                        <Reflection fraction="0.3" topOffset="3.0" topOpacity="0.1" />
+                      </input>
+                    </SepiaTone>
+                  </effect>
+                  <font>
+                    <Font name="System Bold" size="32.0" fx:id="x1" />
+                  </font>
+                  <FlowPane.margin>
+                    <Insets top="50.0" fx:id="x6" />
+                  </FlowPane.margin>
+                </Button>
+                <Button id="btnLearn" fx:id="btnQuiz" defaultButton="true" disable="true" font="$x1" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Quiz" FlowPane.margin="$x6">
+                  <effect>
+                    <Reflection fraction="0.3" topOffset="3.0" topOpacity="0.2">
+                      <input>
+                        <SepiaTone />
+                      </input>
+                    </Reflection>
+                  </effect>
+                </Button>
+                <HBox fx:id="hbNavigate" prefHeight="75.0" prefWidth="200.0" FlowPane.margin="$x6">
+                  <children>
+                    <ImageView fx:id="ivPrevious" fitHeight="48.0" fitWidth="48.0" onMouseClicked="#ivPreviousOnMouseClicked" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                        <Image url="@img/previous.png" preserveRatio="false" smooth="false" />
+                      </image>
+                      <HBox.margin>
+                        <Insets left="30.0" top="10.0" />
+                      </HBox.margin>
+                    </ImageView>
+                    <ImageView fx:id="ivNext" fitHeight="48.0" fitWidth="48.0" onMouseClicked="#ivNextOnMouseClicked" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                        <Image url="@img/next.png" preserveRatio="false" smooth="false" />
+                      </image>
+                      <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                      </HBox.margin>
+                    </ImageView>
+                    <ImageView fx:id="ivMark" fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                        <Image url="@img/incorrect.png" preserveRatio="false" smooth="false" />
+                      </image>
+                      <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                      </HBox.margin>
+                    </ImageView>
+                  </children>
+                </HBox>
+              </children>
+              <padding>
+                <Insets />
+              </padding>
+            </FlowPane>
+          </children>
+        </AnchorPane>
+        <AnchorPane fx:id="apMain" prefHeight="525.0" prefWidth="600.0">
+          <children>
+            <VBox fx:id="vbMain" prefHeight="525.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <children>
+                <Label fx:id="lblQuestion" prefHeight="50.0" prefWidth="580.0" text="You can refer back to the learning materials. See hint for more details." textFill="WHITE">
+                  <font>
+                    <Font size="18.0" fx:id="x3" />
+                  </font>
+                  <VBox.margin>
+                    <Insets right="20.0" fx:id="x2" />
+                  </VBox.margin>
+                </Label>
+                <TextArea fx:id="taQuestion" editable="false" prefHeight="175.0" prefWidth="570.0" style="-fx-background-color: cornsilk;&#10;-fx-background-radius: 6;&#10;-fx-font-size: 16px;" wrapText="true">
+                  <VBox.margin>
+                    <Insets right="30.0" fx:id="x4" />
+                  </VBox.margin>
+                </TextArea>
+                <Label id="lblTopMainText" fx:id="lblAnswer" font="$x3" prefHeight="50.0" prefWidth="580.0" text="Type your answer below then hit 'Submit' to see if you're right:" textFill="WHITE" VBox.margin="$x2" />
+                <TextArea fx:id="taAnswer" prefHeight="175.0" prefWidth="570.0" promptText="type Python code here..." style="-fx-background-color: cornsilk;&#10;-fx-background-radius: 6;&#10;-fx-font-size: 16px;" wrapText="true">
+                  <VBox.margin>
+                    <Insets right="30.0" fx:id="x4" />
+                  </VBox.margin>
+                </TextArea>
+                <FlowPane fx:id="fpActions" alignment="CENTER_RIGHT" columnHalignment="CENTER" hgap="0.0" prefHeight="75.0" prefWidth="600.0">
+                  <children>
+                    <Button id="btnRunCode" fx:id="btnHint" cancelButton="true" mnemonicParsing="false" onAction="#btnHintOnAction" text="Hint" FlowPane.margin="$x4">
+                      <effect>
+                        <SepiaTone>
+                          <input>
+                            <Reflection topOffset="3.0" topOpacity="0.1" />
+                          </input>
+                        </SepiaTone>
+                      </effect>
+                      <font>
+                        <Font size="16.0" />
+                      </font>
+                    </Button>
+                    <Button fx:id="btnSubmit" font="$x7" mnemonicParsing="false" onAction="#btnSubmitOnAction" text="Submit">
+                      <effect>
+                        <SepiaTone>
+                          <input>
+                            <Reflection topOffset="3.0" topOpacity="0.1" />
+                          </input>
+                        </SepiaTone>
+                      </effect>
+                      <FlowPane.margin>
+                        <Insets left="30.0" right="30.0" fx:id="x5" />
+                      </FlowPane.margin>
+                    </Button>
+                  </children>
+                </FlowPane>
+              </children>
+            </VBox>
+          </children>
+        </AnchorPane>
+      </children>
+    </HBox>
+  </children>
+</fx:root>

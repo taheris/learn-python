@@ -1,0 +1,51 @@
+Hello again. This final learning material and quiz are designed to stretch your knowledge of Python, combining everything you've learnt so far.
+
+We'll start with list comprehensions. These are special operations that transform a sequence into a new sequence. For example, if you wanted to double all the numbers in a list, one way to do it might be:
+
+"""
+newlist = []
+for i in mylist:
+    newlist.append(2 * i)
+"""
+
+This works fine, but a more powerful way to represent this would be "newlist = [2 * i for i in mylist]". This results in the same output, but now uses list comprehensions to do so in one statement. The general form of a list comprehension is:
+
+"""
+["transformation step" "iteration step" "any filters"]
+"""
+
+In our previous example, the transformation step was to double the number (2 * i), the iteration was through the list "mylist", and there was no filter. To give an example of the filter, if we only wanted to apply the transformation when i was less than 10, we could write "[2 * i for i in mylist if i < 10]".
+
+The iteration may be through more than one list. Consider the following:
+
+"""
+newlist = [a + b for a in list1 for b in list2]
+"""
+
+This will return a list with the sum (or concatentation if strings) of every combination of "list1" and "list2".
+
+You can use the range() function if you want to generate a list of numbers to iterate through. For example, to get a list of the first 10 integers (0 to 9), you can use "[x for x in range(10)]". If you wanted to start at a specific number, use the form "range(start, end)", remembering that like list slicing, start is included but end is not.
+
+Another powerful function is map(), which takes a function and a list as arguments, and applies the function to every element of the list. For example, consider the following code:
+
+"""
+def double(x):
+    return 2 * x
+
+mylist = [1,2,3]
+print map(double, mylist)
+"""
+
+What happens when you run this code? Does it print what you expect? In this caes, Python has printed the object reference to an iterator. If you want to know the values, try re-running the above code by applying the list() function with the map() function as an argument.
+
+If you only want to use the function once, you can create an anonymous function as an argument to the map() function by using the "lambda" statement. For example, the double() function defined above can be rewritten as "lambda x: 2 * x". This works in the same way as the double function (by taking an argument "x" and returning "2 * x"), and can be used as the first argument to map() instead of "double".
+
+As a final note, if you have a list that you want to sort, this can be done by applying the sorted() function to the list, or by calling the sort() method which will sort the list in place. For example:
+
+"""
+mylist = ['one', 'two', 'three']
+print sorted(mylist)
+print mylist
+mylist.sort()
+print mylist
+"""
