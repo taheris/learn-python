@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="coursework">
+    <output-path>$PROJECT_DIR$/out/artifacts/coursework</output-path>
+    <root id="root">
+      <element id="archive" name="coursework.jar">
+        <element id="module-output" name="learn-python" />
+      </element>
+    </root>
+  </artifact>
+</component>
