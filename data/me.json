@@ -1,0 +1,386 @@
+[
+  {
+    "question": "How would you concatenate (join) the strings \u0027face\u0027 and \u0027book\u0027?",
+    "type": "drag",
+    "options": [
+      "\u0027face\u0027.join(\u0027book\u0027)",
+      "\u0027face\u0027 +\u003d \u0027book\u0027",
+      "\u0027face\u0027 + \u0027book\u0027",
+      "str.join(\u0027face\u0027, \u0027book\u0027)"
+    ],
+    "answer": "\u0027face\u0027 + \u0027book\u0027",
+    "difficulty": "easy",
+    "mark": "not_started"
+  },
+  {
+    "question": "How would you print 10 asterix (*) characters?",
+    "type": "drag",
+    "options": [
+      "print 10 *",
+      "print \u0027**********\u0027",
+      "10.times(\u0027*\u0027)",
+      "10 * \u0027*\u0027",
+      "repeat(\u0027*\u0027, 10)"
+    ],
+    "answers": [
+      "print \u0027**********\u0027",
+      "10 * \u0027*\u0027"
+    ],
+    "difficulty": "easy",
+    "mark": "not_started"
+  },
+  {
+    "question": "The following code doesn\u0027t compile. Fix it to print the expected string",
+    "type": "debug",
+    "question_code": [
+      "print \u0027My height is 5\u002711.\u0027"
+    ],
+    "output": "My height is 5\u002711.",
+    "difficulty": "easy",
+    "mark": "correct"
+  },
+  {
+    "question": "Write a statement that writes \u0027Hello World\u0027 to the console.",
+    "type": "statement",
+    "output": "Hello World",
+    "difficulty": "easy",
+    "mark": "not_started"
+  },
+  {
+    "question": "Write a statement that stores your name in a variable named \u0027name\u0027.",
+    "type": "statement",
+    "check": [
+      "type(name) is str",
+      "len(name) \u003e 1"
+    ],
+    "difficulty": "easy",
+    "mark": "not_started"
+  },
+  {
+    "question": "What is the correct way to comment out the line \"print \u0027Hello World\u0027\"?",
+    "type": "drag",
+    "options": [
+      "// print \u0027Hello World\u0027",
+      "# print \u0027Hello World\u0027",
+      "/* print \u0027Hello World\u0027 */",
+      "\u0027 print \u0027Hello World\u0027"
+    ],
+    "answer": "# print \u0027Hello World\u0027",
+    "difficulty": "easy",
+    "mark": "not_started"
+  },
+  {
+    "question": "How would you amend this statement to print each word on a separate line?",
+    "type": "debug",
+    "question_code": [
+      "print \u0027Hello World\u0027"
+    ],
+    "answer": "print \u0027Hello\\nWorld\u0027",
+    "difficulty": "easy",
+    "mark": "not_started"
+  },
+  {
+    "question": "How would you fix this statement to print the correct string length?",
+    "type": "debug",
+    "question_code": [
+      "print length(\u0027Hello World\u0027)"
+    ],
+    "answer": "print len(\u0027Hello World\u0027)",
+    "difficulty": "easy",
+    "mark": "not_started"
+  },
+  {
+    "question": "How many characters are in the output of \"print \u0027Hello\\nWorld\u0027\"?",
+    "type": "drag",
+    "options": [
+      "05",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": "11",
+    "difficulty": "easy",
+    "mark": "not_started"
+  },
+  {
+    "question": "What statement would you use to access the first element of \u0027animals\u0027?",
+    "type": "statement",
+    "question_code": [
+      "animals \u003d [\u0027lion\u0027, \u0027tiger\u0027, \u0027penguin\u0027, \u0027kangaroo\u0027]"
+    ],
+    "answer": "animals[0]",
+    "difficulty": "easy",
+    "mark": "not_started"
+  },
+  {
+    "question": "Drag the correct escape sequence to print a new line (linefeed)?",
+    "type": "drag",
+    "options": [
+      "\\a",
+      "\\t",
+      "\\r",
+      "\\v",
+      "\\n",
+      "\\b"
+    ],
+    "answer": "\\n",
+    "difficulty": "medium",
+    "hint": "http://docs.python.org/3/reference/lexical_analysis.html#string-and-bytes-literals",
+    "mark": "not_started"
+  },
+  {
+    "question": "How would you fix this code to show the expected result?",
+    "type": "drag",
+    "question_code": [
+      "question \u003d \u0027How many {0} do you have? \u0027",
+      "apples \u003d raw_input(question.format(\u0027apples\u0027))",
+      "oranges \u003d raw_input(question.format(\u0027oranges\u0027))",
+      "print \u0027You have\u0027, apples + oranges, \u0027pieces of fruit.\u0027"
+    ],
+    "options": [
+      "change {0} to {1}",
+      "type the full question in each input",
+      "use the int() function",
+      "save apples + oranges to a new variable to print"
+    ],
+    "answer": "use the int() function",
+    "difficulty": "medium",
+    "hint": "http://docs.python.org/3/library/stdtypes.html#typesnumeric",
+    "mark": "not_started"
+  },
+  {
+    "question": "How would you open and read the contents of file \u0027hello.txt\u0027 in one line?",
+    "type": "statement",
+    "answer": "open(\u0027hello.txt\u0027).read()",
+    "difficulty": "medium",
+    "hint": "http://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files",
+    "mark": "not_started"
+  },
+  {
+    "question": "What is the shortest way you can return the first 3 elements of an array \u0027a\u0027?",
+    "type": "statement",
+    "answer": "a[:3]",
+    "difficulty": "medium",
+    "hint": "http://stackoverflow.com/a/509295",
+    "mark": "not_started"
+  },
+  {
+    "question": "How would you fix this program to write to the file as expected?",
+    "type": "debug",
+    "question_code": [
+      "target \u003d open(\u0027out.txt\u0027)",
+      "target.write(\u0027Hello World\u0027)",
+      "target.close()"
+    ],
+    "answer_code": [
+      "target \u003d open(\u0027out.txt\u0027, \u0027w\u0027)",
+      "target.write(\u0027Hello World\u0027)",
+      "target.close()"
+    ],
+    "difficulty": "medium",
+    "hint": "http://docs.python.org/2/tutorial/inputoutput.html",
+    "mark": "not_started"
+  },
+  {
+    "question": "Write a function named \u0027multiply\u0027 that takes two arguments and returns their product.",
+    "type": "develop",
+    "check": [
+      "multiply(2, 3) \u003d\u003d 6"
+    ],
+    "difficulty": "medium",
+    "hint": "http://docs.python.org/2/tutorial/controlflow.html#defining-functions",
+    "mark": "not_started"
+  },
+  {
+    "question": "Drag all invalid Python keywords to the target area.",
+    "type": "drag",
+    "options": [
+      "def",
+      "run",
+      "else if",
+      "for",
+      "start",
+      "print",
+      "and",
+      "wait",
+      "loop",
+      "return"
+    ],
+    "answers": [
+      "run",
+      "else if",
+      "start",
+      "wait",
+      "loop"
+    ],
+    "difficulty": "medium",
+    "hint": "http://docs.python.org/2/library/keyword.html",
+    "mark": "not_started"
+  },
+  {
+    "question": "Given a space separate list of words in a string variable named \u0027words\u0027, write a statement that will split this string into a list of individual words.",
+    "type": "statement",
+    "answer": "words.split(\u0027 \u0027)",
+    "difficulty": "medium",
+    "hint": "http://www.tutorialspoint.com/python/string_split.htm",
+    "mark": "not_started"
+  },
+  {
+    "question": "Write a function named \u0027test_score\u0027 that takes a test score and returns \u0027Distinction\u0027 if it is 70 or greater, \u0027Pass\u0027 if it is 50 or greater, or \u0027Fail\u0027 otherwise.",
+    "type": "develop",
+    "check": [
+      "test_score(90) \u003d\u003d \u0027Distinction\u0027",
+      "test_score(50) \u003d\u003d \u0027Pass\u0027",
+      "test_score(30) \u003d\u003d \u0027Fail\u0027"
+    ],
+    "difficulty": "medium",
+    "hint": "http://docs.python.org/2/tutorial/controlflow.html",
+    "mark": "not_started"
+  },
+  {
+    "question": "Given a list named \u0027words\u0027, what statement would you use to remove the last element and print it to the screen?",
+    "type": "statement",
+    "answer": "print words.pop()",
+    "difficulty": "medium",
+    "hint": "http://docs.python.org/2/tutorial/datastructures.html",
+    "mark": "not_started"
+  },
+  {
+    "question": "Write a statement to print the sum of the numbers 1 to 1000",
+    "type": "statement",
+    "output": "500500",
+    "difficulty": "hard",
+    "hint": "http://docs.python.org/release/1.5.1p1/tut/range.html",
+    "mark": "correct"
+  },
+  {
+    "question": "Write a function named \u0027sort_words\u0027 that takes a string of space separated words and returns a sorted list of the words.",
+    "type": "develop",
+    "check": [
+      "sort_words(\u0027one two three\u0027) \u003d\u003d [\u0027one\u0027, \u0027three\u0027, \u0027two\u0027]"
+    ],
+    "difficulty": "hard",
+    "hint": "http://docs.python.org/2/howto/sorting.html",
+    "mark": "correct"
+  },
+  {
+    "question": "What statement would you use to print the squared values of the integers 1 to 10?",
+    "type": "statement",
+    "output": "[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]",
+    "difficulty": "hard",
+    "hint": "http://docs.python.org/2/tutorial/datastructures.html#list-comprehensions",
+    "mark": "correct"
+  },
+  {
+    "question": "How would you fix the statement below to print a list of playing cards with their rank and suit? For example, \u00272C\u0027 represents the 2 of clubs.",
+    "type": "debug",
+    "question_code": [
+      "[rank for rank in \u002723456789TJQKA\u0027]"
+    ],
+    "answer": "[rank + suit for rank in \u002723456789TJQKA\u0027 for suit in \u0027CDHS\u0027]",
+    "difficulty": "hard",
+    "hint": "http://docs.python.org/2/tutorial/datastructures.html#list-comprehensions",
+    "mark": "correct"
+  },
+  {
+    "question": "Write a function named \u0027factorial\u0027 that returns the factorial of a number.",
+    "type": "develop",
+    "possible_answer": [
+      "def factorial(n):",
+      "  if n \u003d\u003d 1:",
+      "    return 1",
+      "  return n * factorial(n - 1)"
+    ],
+    "check": [
+      "factorial(0) \u003d\u003d 1",
+      "factorial(1) \u003d\u003d 1",
+      "factorial(5) \u003d\u003d 120"
+    ],
+    "difficulty": "hard",
+    "hint": "http://en.wikipedia.org/wiki/Factorial",
+    "mark": "correct"
+  },
+  {
+    "question": "Given a space separated string named \u0027animals\u0027, write a statement to print a comma separated string of the sorted animal names.",
+    "type": "statement",
+    "answer": "\u0027, \u0027.join(sorted(animals.split(\u0027 \u0027)))",
+    "difficulty": "hard",
+    "hint": "http://docs.python.org/2/library/stdtypes.html#str.join",
+    "mark": "correct"
+  },
+  {
+    "question": "Write a function named \u0027is_palindrome\u0027 that determines if a string is a palindrome.",
+    "type": "develop",
+    "possible_answer": [
+      "def is_palindrome(text):",
+      "  return text \u003d\u003d text[::-1]"
+    ],
+    "check": [
+      "is_palindrome(\u0027racecar\u0027) \u003d\u003d True",
+      "is_palindrome(\u0027test\u0027) \u003d\u003d False"
+    ],
+    "difficulty": "hard",
+    "hint": "http://en.wikipedia.org/wiki/Palindrome",
+    "mark": "correct"
+  },
+  {
+    "question": "Write a function \u0027is_leap_year\u0027 that takes a year and returns True if it\u0027s a leap year or False otherwise.",
+    "type": "develop",
+    "possible_answer": [
+      "def is_leap_year(year):",
+      "  return year % 4 \u003d\u003d 0 and (year % 100 !\u003d 0 or year % 400 \u003d\u003d 0)"
+    ],
+    "check": [
+      "is_leap_year(2012) \u003d\u003d True",
+      "is_leap_year(2013) \u003d\u003d False",
+      "is_leap_year(2012) \u003d\u003d True",
+      "is_leap_year(1900) \u003d\u003d False"
+    ],
+    "difficulty": "hard",
+    "hint": "http://en.wikipedia.org/wiki/Leap_year",
+    "mark": "correct"
+  },
+  {
+    "question": "Fix this function so that it returns \u0027Invalid integer\u0027 when the value part of the argument is not a valid integer.",
+    "type": "debug",
+    "question_code": [
+      "def convert_temperature(temperature):",
+      "  scale \u003d temperature[-1]",
+      "  value \u003d int(temperature[:-1])",
+      "  if scale \u003d\u003d \u0027C\u0027:",
+      "    return (9.0/5.0) * value + 32",
+      "  elif scale \u003d\u003d \u0027F\u0027:",
+      "    return (5.0/9.0) * (value - 32)"
+    ],
+    "possible_answer": [
+      "def convert_temperature(temperature):",
+      "  scale \u003d temperature[-1]",
+      "  try:",
+      "    value \u003d int(temperature[:-1])",
+      "  except:",
+      "    return \u0027Invalid integer\u0027",
+      "  if scale \u003d\u003d \u0027C\u0027:",
+      "    return (9.0/5.0) * value + 32",
+      "  elif scale \u003d\u003d \u0027F\u0027:",
+      "    return (5.0/9.0) * (value - 32)"
+    ],
+    "check": [
+      "convert_temperature(\u002720C\u0027) \u003d\u003d 68.0",
+      "convert_temperature(\u00272aC\u0027) \u003d\u003d \u0027Invalid integer\u0027"
+    ],
+    "difficulty": "hard",
+    "hint": "http://docs.python.org/2/tutorial/errors.html",
+    "mark": "correct"
+  },
+  {
+    "question": "Using the map function, write a statement that prints a list of the squares of 1 to 10.",
+    "type": "statement",
+    "possible_answer": [
+      "print list(map(lambda x: x * x, range(1,11)))"
+    ],
+    "output": "[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]",
+    "difficulty": "hard",
+    "hint": "http://docs.python.org/2/library/functions.html#map",
+    "mark": "correct"
+  }
+]

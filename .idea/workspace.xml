@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6e77cf5-946c-49aa-a1d0-2497827b54fb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_commons_commons_lang3_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_python_jython_2_7_b1.xml" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\.classpath" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\.project" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\App.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\exercises\Difficulty.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\exercises\Exercise.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\exercises\Mark.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\exercises\Markable.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\exercises\Material.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\exercises\QuestionType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\game\Game.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\game\Player.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\AbstractController.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\Home.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\HomeController.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\Learn.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\LearnController.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\QuizDrag.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\QuizDragController.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\QuizNormal.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\QuizNormalController.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\Scenes.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\WindowEvents.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\img\correct.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\img\exit.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\img\home.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\img\incorrect.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\img\next.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\img\previous.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\img\target.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\helpers\LowercaseEnumTypeAdapterFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\helpers\StringMethods.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\python\Python.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\App.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/App.java" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\exercises\Difficulty.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/exercises/Difficulty.java" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\exercises\Exercise.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/exercises/Exercise.java" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\exercises\Mark.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/exercises/Mark.java" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\exercises\Markable.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/exercises/Markable.java" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\exercises\Material.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/exercises/Material.java" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\exercises\QuestionType.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/exercises/QuestionType.java" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\game\Game.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/game/Game.java" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\game\Player.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/game/Player.java" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\AbstractController.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/gui/AbstractController.java" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\Home.fxml" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/gui/Home.fxml" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\HomeController.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/gui/HomeController.java" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\Learn.fxml" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/gui/Learn.fxml" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\LearnController.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/gui/LearnController.java" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\QuizDrag.fxml" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/gui/QuizDrag.fxml" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\QuizDragController.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/gui/QuizDragController.java" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\QuizNormal.fxml" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/gui/QuizNormal.fxml" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\QuizNormalController.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/gui/QuizNormalController.java" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\Scenes.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/gui/Scenes.java" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\WindowEvents.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/gui/WindowEvents.java" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\img\correct.png" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/gui/img/correct.png" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\img\exit.png" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/gui/img/exit.png" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\img\home.png" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/gui/img/home.png" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\img\incorrect.png" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/gui/img/incorrect.png" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\img\next.png" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/gui/img/next.png" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\img\previous.png" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/gui/img/previous.png" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\gui\img\target.png" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/gui/img/target.png" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\helpers\LowercaseEnumTypeAdapterFactory.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/helpers/LowercaseEnumTypeAdapterFactory.java" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\helpers\StringMethods.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/helpers/StringMethods.java" />
+      <change type="MOVED" beforePath="C:\Users\Shaun\code\java\learn-python\src\com\gc01\taheri\cslearn2012\python\Python.java" afterPath="$PROJECT_DIR$/src/com/taheris/learnpython/python/Python.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/AbstractController.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/AbstractController.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/class-use/AbstractController.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/class-use/AbstractController.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/App.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/App.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/class-use/App.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/class-use/App.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/Difficulty.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/Difficulty.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/class-use/Difficulty.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/class-use/Difficulty.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/Exercise.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/Exercise.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/class-use/Exercise.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/class-use/Exercise.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/game/Game.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/game/Game.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/game/class-use/Game.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/game/class-use/Game.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/HomeController.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/HomeController.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/class-use/HomeController.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/class-use/HomeController.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/LearnController.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/LearnController.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/class-use/LearnController.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/class-use/LearnController.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/helpers/LowercaseEnumTypeAdapterFactory.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/helpers/LowercaseEnumTypeAdapterFactory.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/helpers/class-use/LowercaseEnumTypeAdapterFactory.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/helpers/class-use/LowercaseEnumTypeAdapterFactory.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/Mark.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/Mark.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/class-use/Mark.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/class-use/Mark.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/Markable.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/Markable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/class-use/Markable.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/class-use/Markable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/Material.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/Material.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/class-use/Material.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/class-use/Material.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/game/Player.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/game/Player.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/game/class-use/Player.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/game/class-use/Player.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/python/Python.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/python/Python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/python/class-use/Python.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/python/class-use/Python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/QuestionType.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/QuestionType.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/class-use/QuestionType.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/class-use/QuestionType.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/QuizDragController.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/QuizDragController.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/class-use/QuizDragController.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/class-use/QuizDragController.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/QuizNormalController.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/QuizNormalController.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/class-use/QuizNormalController.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/class-use/QuizNormalController.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/Scenes.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/Scenes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/class-use/Scenes.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/class-use/Scenes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/helpers/StringMethods.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/helpers/StringMethods.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/helpers/class-use/StringMethods.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/helpers/class-use/StringMethods.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/WindowEvents.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/WindowEvents.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/class-use/WindowEvents.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/class-use/WindowEvents.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/allclasses-frame.html" afterPath="$PROJECT_DIR$/doc/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/doc/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/constant-values.html" afterPath="$PROJECT_DIR$/doc/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-1.html" afterPath="$PROJECT_DIR$/doc/index-files/index-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-10.html" afterPath="$PROJECT_DIR$/doc/index-files/index-10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-11.html" afterPath="$PROJECT_DIR$/doc/index-files/index-11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-12.html" afterPath="$PROJECT_DIR$/doc/index-files/index-12.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-13.html" afterPath="$PROJECT_DIR$/doc/index-files/index-13.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-14.html" afterPath="$PROJECT_DIR$/doc/index-files/index-14.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-15.html" afterPath="$PROJECT_DIR$/doc/index-files/index-15.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-16.html" afterPath="$PROJECT_DIR$/doc/index-files/index-16.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-17.html" afterPath="$PROJECT_DIR$/doc/index-files/index-17.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-18.html" afterPath="$PROJECT_DIR$/doc/index-files/index-18.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-19.html" afterPath="$PROJECT_DIR$/doc/index-files/index-19.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-2.html" afterPath="$PROJECT_DIR$/doc/index-files/index-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-20.html" afterPath="$PROJECT_DIR$/doc/index-files/index-20.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-3.html" afterPath="$PROJECT_DIR$/doc/index-files/index-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-4.html" afterPath="$PROJECT_DIR$/doc/index-files/index-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-5.html" afterPath="$PROJECT_DIR$/doc/index-files/index-5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-6.html" afterPath="$PROJECT_DIR$/doc/index-files/index-6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-7.html" afterPath="$PROJECT_DIR$/doc/index-files/index-7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-8.html" afterPath="$PROJECT_DIR$/doc/index-files/index-8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-9.html" afterPath="$PROJECT_DIR$/doc/index-files/index-9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/overview-frame.html" afterPath="$PROJECT_DIR$/doc/overview-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/overview-summary.html" afterPath="$PROJECT_DIR$/doc/overview-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/overview-tree.html" afterPath="$PROJECT_DIR$/doc/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/package-frame.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/package-frame.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/game/package-frame.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/game/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/package-frame.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/helpers/package-frame.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/helpers/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/python/package-frame.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/python/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/package-summary.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/package-summary.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/game/package-summary.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/game/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/package-summary.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/helpers/package-summary.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/helpers/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/python/package-summary.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/python/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/package-tree.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/package-tree.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/game/package-tree.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/game/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/package-tree.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/helpers/package-tree.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/helpers/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/python/package-tree.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/python/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/package-use.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/package-use.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/exercises/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/game/package-use.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/game/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/package-use.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/gui/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/helpers/package-use.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/helpers/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/python/package-use.html" afterPath="$PROJECT_DIR$/doc/com/gc01/taheri/cslearn2012/python/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
+    <ignored path="learn-python.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="learn-python" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/taheri/cslearn2012/helpers/StringMethods.java" />
+        <option value="$PROJECT_DIR$/src/com/taheris/cslearn2012/helpers/StringMethods.java" />
+        <option value="$PROJECT_DIR$/src/com/taheris/learnpython/helpers/StringMethods.java" />
+        <option value="$PROJECT_DIR$/src/com/taheris/learnpython/App.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1280" />
+    <option name="width" value="1280" />
+    <option name="height" value="1410" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taheris" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learnpython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taheris" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learnpython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="reference.projectsettings.compiler.rmicompiler" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="Downloaded.Files.Path" value="C:\Users\Shaun\code\java\learn-python\lib" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.taheris.learnpython.App" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="coursework" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.App" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6e77cf5-946c-49aa-a1d0-2497827b54fb" name="Default" comment="" />
+      <created>1381188765368</created>
+      <updated>1381188765368</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1280" y="0" width="1280" height="1410" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847276" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847276" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27373418" sideWeight="0.6707598" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/coursework.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.38321456" vertical-offset="0" max-vertical-offset="1263">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/easy.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1474">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/taheris/learnpython/helpers/StringMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="31" selection-start="73" selection-end="73" vertical-scroll-proportion="0.03448276" vertical-offset="0" max-vertical-offset="1276">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/taheris/learnpython/helpers/LowercaseEnumTypeAdapterFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="418" selection-end="418" vertical-scroll-proportion="0.22644497" vertical-offset="0" max-vertical-offset="1430">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/exercises.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="242" column="3" selection-start="7021" selection-end="7021" vertical-scroll-proportion="0.70983213" vertical-offset="4732" max-vertical-offset="7942">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/taheris/learnpython/python/Python.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="4" selection-start="701" selection-end="701" vertical-scroll-proportion="0.36363637" vertical-offset="0" max-vertical-offset="1672">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/taheris/learnpython/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="0" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.987013" vertical-offset="638" max-vertical-offset="1606">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>coursework</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.python:jython:2.7-b1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

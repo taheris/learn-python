@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<fx:root type="javafx.scene.layout.VBox" fx:id="vbRoot" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color:&#10;    linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),&#10;    linear-gradient(#20262b, #191d22),&#10;    radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));&#10;-fx-background-radius: 15;&#10;-fx-background-insets: 0, 1, 5;" xmlns:fx="http://javafx.com/fxml" fx:controller="com.taheris.learnpython.gui.HomeController">
+  <children>
+    <HBox fx:id="hbNavbar" prefHeight="75.0" prefWidth="800.0">
+      <children>
+        <AnchorPane fx:id="apHome" prefHeight="75.0" prefWidth="75.0">
+          <children>
+            <ImageView fx:id="ivHome" fitHeight="48.0" fitWidth="48.0" onMouseClicked="#ivHomeOnMouseClicked" pickOnBounds="true" preserveRatio="true" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="15.0">
+              <image>
+                <Image url="@img/home.png" preserveRatio="false" smooth="false" />
+              </image>
+            </ImageView>
+          </children>
+        </AnchorPane>
+        <AnchorPane fx:id="apMessage" prefHeight="75.0" prefWidth="650.0">
+          <children>
+            <Label fx:id="lblMessage" onMouseDragged="#lblMessageOnMouseDragged" onMousePressed="#lblMessageOnMousePressed" prefHeight="-1.0" prefWidth="500.0" text="" textFill="#ff6666" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0">
+              <font>
+                <Font name="System Bold" size="16.0" />
+              </font>
+            </Label>
+          </children>
+        </AnchorPane>
+        <AnchorPane fx:id="apExit" prefHeight="75.0" prefWidth="75.0">
+          <children>
+            <ImageView id="ivHome" fx:id="ivExit" fitHeight="48.0" fitWidth="48.0" onMouseClicked="#ivExitOnMouseClicked" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="14.0">
+              <image>
+                <Image url="@img/exit.png" preserveRatio="false" smooth="false" />
+              </image>
+            </ImageView>
+          </children>
+        </AnchorPane>
+      </children>
+    </HBox>
+    <VBox fx:id="vbMain" prefHeight="525.0" prefWidth="800.0">
+      <children>
+        <Label fx:id="lblHello" text="let's learn Python" textFill="#ffe4cc">
+          <effect>
+            <DropShadow />
+          </effect>
+          <font>
+            <Font name="System Bold" size="48.0" />
+          </font>
+          <VBox.margin>
+            <Insets left="80.0" top="25.0" />
+          </VBox.margin>
+        </Label>
+        <Label fx:id="lblName" text="What is your name?" textFill="WHITE">
+          <effect>
+            <DropShadow />
+          </effect>
+          <font>
+            <Font size="32.0" fx:id="x1" />
+          </font>
+          <VBox.margin>
+            <Insets left="100.0" top="25.0" fx:id="x2" />
+          </VBox.margin>
+        </Label>
+        <TextField fx:id="tfName" prefWidth="200.0" promptText="we'll keep your progress for next time..." style="-fx-font-size: 18px;&#10;">
+          <VBox.margin>
+            <Insets left="150.0" right="250.0" top="15.0" />
+          </VBox.margin>
+        </TextField>
+        <Label id="lblName" fx:id="lblDifficulty" font="$x1" text="and what kind of challenge do you want?" textFill="WHITE" VBox.margin="$x2">
+          <effect>
+            <DropShadow />
+          </effect>
+        </Label>
+        <HBox fx:id="hbDifficulty" prefHeight="100.0" prefWidth="200.0">
+          <children>
+            <Button fx:id="btnEasy" mnemonicParsing="false" onAction="#btnEasyOnAction" prefHeight="60.0" prefWidth="125.0" text="Easy">
+              <effect>
+                <Reflection topOffset="3.0" topOpacity="0.1">
+                  <input>
+                    <SepiaTone />
+                  </input>
+                </Reflection>
+              </effect>
+              <font>
+                <Font name="System Bold" size="20.0" fx:id="x3" />
+              </font>
+              <HBox.margin>
+                <Insets left="100.0" top="20.0" />
+              </HBox.margin>
+            </Button>
+            <Button id="btnEasy" fx:id="btnMedium" font="$x3" mnemonicParsing="false" onAction="#btnMediumOnAction" prefHeight="60.0" prefWidth="125.0" text="Medium">
+              <effect>
+                <Reflection topOffset="3.0" topOpacity="0.1">
+                  <input>
+                    <SepiaTone />
+                  </input>
+                </Reflection>
+              </effect>
+              <HBox.margin>
+                <Insets left="100.0" top="20.0" />
+              </HBox.margin>
+            </Button>
+            <Button id="btnEasy" fx:id="btnHard" font="$x3" mnemonicParsing="false" onAction="#btnHardOnAction" prefHeight="60.0" prefWidth="125.0" text="Hard">
+              <effect>
+                <Reflection topOffset="3.0" topOpacity="0.1">
+                  <input>
+                    <SepiaTone />
+                  </input>
+                </Reflection>
+              </effect>
+              <HBox.margin>
+                <Insets left="100.0" top="20.0" />
+              </HBox.margin>
+            </Button>
+          </children>
+        </HBox>
+        <HBox id="hbDifficulty" fx:id="hbProgress" prefHeight="100.0" prefWidth="200.0">
+          <children>
+            <ProgressIndicator fx:id="piEasy" prefHeight="80.0" prefWidth="80.0" progress="0.0" style="-fx-progress-color: green;&#10;">
+              <HBox.margin>
+                <Insets left="120.0" top="20.0" />
+              </HBox.margin>
+            </ProgressIndicator>
+            <ProgressIndicator fx:id="piMedium" prefHeight="80.0" prefWidth="80.0" progress="0.0" style="-fx-progress-color: green;&#10;">
+              <HBox.margin>
+                <Insets left="145.0" top="20.0" />
+              </HBox.margin>
+            </ProgressIndicator>
+            <ProgressIndicator fx:id="piHard" prefHeight="80.0" prefWidth="80.0" progress="0.0" style="-fx-progress-color: green;&#10;">
+              <HBox.margin>
+                <Insets left="145.0" top="20.0" />
+              </HBox.margin>
+            </ProgressIndicator>
+          </children>
+          <VBox.margin>
+            <Insets top="20.0" />
+          </VBox.margin>
+        </HBox>
+      </children>
+    </VBox>
+  </children>
+</fx:root>
